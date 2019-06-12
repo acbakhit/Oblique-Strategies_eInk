@@ -21,7 +21,7 @@ void setup() {
 void loop() {
 
   while (1){
-  int n = random(0, 142);
+  int n = random(0, 143);
   display.drawExampleBitmap(IMAGE[n], 0, 0, GxEPD_WIDTH,GxEPD_HEIGHT, GxEPD_BLACK);
   display.update();
   esp_sleep_enable_timer_wakeup(86400000000);
